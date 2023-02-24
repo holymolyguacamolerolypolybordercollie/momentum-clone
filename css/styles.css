@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap');
+
+body{
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+.background{
+    position:absolute;
+    left:0px;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    z-index:-1;
+    opacity:50%;
+    height:100%;
+    width:100%;
+}
+
+.login{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top:20%;
+}
+
+.login span{
+    display:block;
+    font-weight:700;
+    font-size :40px;
+    margin-bottom:50px;
+
+}
+
+.login input[type="text"]{
+    display:block;
+    margin-bottom:35px;
+    padding:25px;
+    width:60%;
+    text-align:center;
+    font-size:26px;
+    background-color:rgba(0,0,0,0.0);
+    border:none;
+    border-bottom: 2px solid rgba(0,0,0,0.5);
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.login input:focus{
+    outline:none;
+    border-color:rgba(187, 69, 58, 0.7)
+}
+
+
+.quote{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-size: 28px;
+    margin-top:150px;
+}
+
+.quote span:first-child{
+    margin-bottom:45px;
+}
+
+.quote span:last-child{
+    font-size:20px;
+}
+
+
+.greetings{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top:10%;
+    font-size:40px;
+    text-align:center;
+    font-weight:700;
+}
+
+.watch{
+    display:flex;
+    justify-content:center;
+    font-size:66px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hidden{
+    display:none; !important;
+}
+
